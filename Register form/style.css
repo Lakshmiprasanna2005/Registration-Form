@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:white;
+    background-size:300%;
+
+}
+div.main{
+    width:400px;
+    margin:100px ;
+}
+h2{
+    text-align: center;
+    padding:20px;
+    font-family:sans-serif;
+    color:purple;
+}
+div.register{
+    background-color:whitesmoke;
+    width:100%;
+    font-size:20px;
+    border-radius:5px;
+    box-shadow:2px 0px 15px  rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+}
+form#register{
+    margin:500px;
+    
+}
+label{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-style:normal;
+}
+
+.main .button{
+    width:50%;
+    height:35px;
+    background:purple;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+    font-weight: 500;
+     position: relative;
+     text-align: center;
+     transform: translate(3.5%);
+}
